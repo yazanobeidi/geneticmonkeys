@@ -60,4 +60,4 @@ Yazan Obeidi
 
 Copyright
 ------------
-2016, Yazan Obeidi
+2016, Yazan Obeidi (GNU GPLv3)
