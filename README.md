@@ -5,7 +5,7 @@ Genetic monkeys is an exploration into the building blocks of an artificial inte
 
 ### geneticmonkeys.py
 
-This module is a play on the "infinite monkey theorem", an np-hard combinatorial problem. We define an objective phrase, such as 'To be or not to be', spawn an initial population of 'monkeys' each representing a solution, which evolves across generations, or iterations, using the process of selection and reproduction.
+This module is a play on the "[infinite monkey theorem]((https://en.wikipedia.org/wiki/Infinite_monkey_theorem))", an np-hard combinatorial problem. We define an objective phrase, such as 'To be or not to be', spawn an initial population of 'monkeys' each representing a solution, which evolves across generations, or iterations, using the process of selection and reproduction.
 
 This process is defined according to a set of 'genetic' variables passed through the command line: maximum population, mutation rate, birth rate, and mortality rate.
 
@@ -19,7 +19,7 @@ Further work includes developing embedded metrics to be able to collect runtime 
 
 ### metamonkeys.py
 
-While we certainly could have built a plain old analytical algorithm which exhaustively explored the viable parameter space for the optimal set of parameters for the `geneticmonkeys.py`, I decided to spin up a second genetic layer instead. Of course by doing this we subject the optimization of the first layer to the unverifiable optimality of the second layer, but to mitigate this I plan on spinning up a third layer. (You may say, "well, we'll find ourself in the same situation as before, only a layer up", you should read [this](https://en.wikipedia.org/wiki/Infinite_monkey_theorem)!)
+While we certainly could have built a plain old analytical algorithm which exhaustively explored the viable parameter space for the optimal set of parameters for the `geneticmonkeys.py`, I decided to spin up a second genetic layer instead. Of course by doing this we subject the optimization of the first layer to the unverifiable optimality of the second layer, but to mitigate this I plan on spinning up a third layer. (You may say, "well, we'll find ourself in the same situation as before, only a layer up", you should read [this](https://en.wikipedia.org/wiki/Turtles_all_the_way_down)!)
 
 Installation
 -----------
