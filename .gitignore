@@ -1,0 +1,5 @@
+#virtualenvs
+env
+
+#pyc
+*.pyc
