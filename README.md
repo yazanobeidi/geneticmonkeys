@@ -7,7 +7,7 @@ Genetic monkeys is an exploration into the building blocks of an artificial inte
 
 This module is a play on the [infinite monkey theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem), an np-hard combinatorial optimization problem. We define an objective phrase, such as `To be or not to be`, spawn an initial population of "monkeys" each representing a solution, which evolves across generations, or iterations, using the process of selection and reproduction.This process is defined according to a set of genetic Environment variables passed through the command line: maximum population, mutation rate, birth rate, and mortality rate.
 
-Presently in a 95 symbol set, the algorithm is able to resolve unknown phrases under 5 symbols almost instantly; phrases under 20 symbols can be expected to be found anywhere between seconds to several minutes. Phrases longer than this, for example 40+ can take much longer, upwards of hours, if you are lucky.
+Presently in a 95 symbol set, the algorithm is able to resolve unknown phrases under 5 symbols almost instantly; phrases under 20 symbols can be expected to be found anywhere between seconds to several minutes. Phrases longer than this, for example 40+ can take much longer, up to an hour or two. I have not tested anything greater than about length 40.
 
 It has been noticed that a significant aspect of performance is determined by the suitibility of the objective function for the respective phrase being used. For example, one function might work well for longer phrases, but return poor performance for short phrases. For this reason implementing learning / optimization within the objective function at iself is being considered.
 
